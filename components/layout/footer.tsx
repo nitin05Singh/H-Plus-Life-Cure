@@ -36,15 +36,15 @@ export default function Footer() {
           <div className="space-y-2">
             <p className="text-sm text-gray-200 flex items-center gap-2">
               <MapPin className="h-4 w-4" />
-              123 Pharma Street, Health City
+              Complex No.3, Navali corporate.  Palghar East
             </p>
             <p className="text-sm text-gray-200 flex items-center gap-2">
               <Phone className="h-4 w-4" />
-              +1 234 567 890
+              8956557714
             </p>
             <p className="text-sm text-gray-200 flex items-center gap-2">
               <Mail className="h-4 w-4" />
-              contact@hpluslifecure.com
+              Hpluslifecure@gmail.com
             </p>
           </div>
         </div>
