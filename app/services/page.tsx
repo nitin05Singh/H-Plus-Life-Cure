@@ -8,37 +8,73 @@ export default function ServicesPage() {
       icon: Microscope,
       title: "Research & Development",
       description: "Cutting-edge pharmaceutical research and innovative drug development programs.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/Research-and-Development.jpg?height=300&width=400",
+      bulletPoints: [
+        "State-of-the-art research facilities",
+        "PhD-level research scientists",
+        "Collaborative academic partnerships",
+        "Breakthrough discovery programs",
+      ],
     },
     {
       icon: Pill,
       title: "Drug Manufacturing",
       description: "State-of-the-art facilities for high-quality pharmaceutical production.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "Drug Manufacturing.jpg/?height=300&width=400",
+      bulletPoints: [
+        "GMP-certified production lines",
+        "Automated manufacturing systems",
+        "Batch tracking and quality control",
+        "Scalable production capabilities",
+      ],
     },
     {
       icon: Flask,
       title: "Quality Control",
       description: "Rigorous testing and quality assurance for all our products.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/Quality Control.jpg?height=300&width=400",
+      bulletPoints: [
+        "ISO-certified testing protocols",
+        "Advanced analytical equipment",
+        "Comprehensive stability testing",
+        "Regulatory compliance verification",
+      ],
     },
     {
       icon: Brain,
       title: "Clinical Trials",
       description: "Comprehensive clinical research and testing programs.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/Clinical Trail.jpg?height=300&width=400",
+      bulletPoints: [
+        "Phase I-IV trial management",
+        "Patient recruitment services",
+        "Data analysis and reporting",
+        "Regulatory submission support",
+      ],
     },
     {
       icon: Shield,
       title: "Regulatory Compliance",
       description: "Ensuring all products meet international safety standards.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/Regulatory Compliance.jpg?height=300&width=400",
+      bulletPoints: [
+        "FDA and EMA compliance expertise",
+        "Regulatory documentation preparation",
+        "Audit preparation and support",
+        "Post-market surveillance",
+      ],
     },
     {
       icon: Users,
       title: "Healthcare Consulting",
       description: "Expert consultation services for healthcare providers.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/Healthcare Consulting.jpg?height=300&width=400",
+      bulletPoints: [
+        "Market access strategies",
+        "Healthcare economics analysis",
+        "Provider relationship management",
+        "Patient-centered care models",
+      ],
     },
   ]
 
@@ -75,13 +111,12 @@ export default function ServicesPage() {
                 </div>
               </CardHeader>
               <CardContent>
-                <ul className="list-disc list-inside text-sm text-gray-600 space-y-2">
-                  <li>Advanced methodologies</li>
-                  <li>Expert team</li>
-                  <li>Quality assurance</li>
-                  <li>Innovative solutions</li>
-                </ul>
-              </CardContent>
+              <ul className="list-disc list-inside text-sm text-gray-600 space-y-2">
+                {service.bulletPoints.map((point, i) => (
+                  <li key={i}>{point}</li>
+                ))}
+              </ul>
+            </CardContent>
             </Card>
           ))}
         </div>

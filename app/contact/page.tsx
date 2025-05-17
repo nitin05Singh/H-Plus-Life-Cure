@@ -22,9 +22,9 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-bold mb-2">Visit Us</h3>
                 <p className="text-gray-600">
-                  123 Pharma Street
+                Complex No.3, Navali corporate. 
                   <br />
-                  Health City, HC 12345
+                  Palghar East, Mumbai, Maharashtra
                 </p>
               </div>
             </div>
@@ -38,9 +38,9 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-bold mb-2">Call Us</h3>
                 <p className="text-gray-600">
-                  +1 234 567 890
+                8956557714
                   <br />
-                  +1 234 567 891
+                  8484896468
                 </p>
               </div>
             </div>
@@ -54,9 +54,9 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-bold mb-2">Email Us</h3>
                 <p className="text-gray-600">
-                  info@hpluslifecure.com
+                Hpluslifecure@gmail.com
                   <br />
-                  support@hpluslifecure.com
+                support@hpluslifecure.com
                 </p>
               </div>
             </div>
@@ -101,8 +101,7 @@ export default function ContactPage() {
         </div>
 
         <div className="relative h-[400px] lg:h-auto">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1645564752026!5m2!1sen!2s"
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15025.867945033107!2d72.7643555621818!3d19.692732798932663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be71cbee0ec54af%3A0x49e2c78355d1c44c!2sNavali%2C%20Maharashtra%20401404!5e0!3m2!1sen!2sin!4v1747493157000!5m2!1sen!2sin"
             className="absolute inset-0 w-full h-full rounded-lg"
             style={{ border: 0 }}
             allowFullScreen
