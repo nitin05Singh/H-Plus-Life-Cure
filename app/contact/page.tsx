@@ -22,9 +22,9 @@ export default function ContactPage() {
               <div>
                 <h3 className="font-bold mb-2">Visit Us</h3>
                 <p className="text-gray-600">
-                Complex No.3, Navali corporate. 
+                 K-19, GK CORPORATE, LOWER PAREL WEST 400013 
                   <br />
-                  Palghar East, Mumbai, Maharashtra
+                  Mumbai, Maharashtra
                 </p>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function ContactPage() {
                 <p className="text-gray-600">
                 8956557714
                   <br />
-                  8484896468
+                  
                 </p>
               </div>
             </div>
